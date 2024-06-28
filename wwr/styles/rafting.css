@@ -87,6 +87,10 @@ div h1{
     text-decoration: none;
 }
 
+.sociallinks a:hover img {
+    opacity: 0.8; /* Slightly dim the icon on hover */
+}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
