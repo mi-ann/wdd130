@@ -82,6 +82,11 @@ div h1{
     position: relative;
 }
 
+/* Remove underlines from social media links */
+.sociallinks a {
+    text-decoration: none;
+}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
