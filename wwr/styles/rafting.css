@@ -3,7 +3,7 @@
 
 
 :root {
-    --primary-color: #6996B5;
+    --primary-color: #d5e7f3cc;
     --secondary-color: #3B6F91;
     --accent1-color: #193F58;
     --accent2-color: #21455E;
@@ -24,7 +24,8 @@
   
   h1, h2, h3, h4, h5, h6 {
       font-family: var(--heading-font);
-      color: var(--primary-color)
+      
+      color: var(--accent2-color);
 }
   
   header {
@@ -68,7 +69,7 @@ div h1{
     text-align: center;
     height: 25px;
     width: 98%;
-    
+    background-color: var(--primary-color);
     
 }
 
@@ -80,3 +81,25 @@ div h1{
     height: auto;
     position: relative;
 }
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
