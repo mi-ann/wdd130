@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: Open-Sans;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header{
+    margin: 0 auto;
+    
+}
+
+h1{
+    margin: 10px;
+    font-size: 3em;
+    color: darkblue;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: rgb(218, 216, 216);
+}
+
+
+
+label, input, button, select, textarea {
+    font-family: 'Times New Roman';
+}
+
+label{
+    text-align: left;
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+input, select, textarea{
+    padding: 1rem;
+    font-size: 1.5em;
+
+}
+
+input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+    
+}
+
+button:hover{
+    background-color: rgb(2, 2, 204);
+}
+
+footer{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    border-top: solid;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div{
+    padding: 20px;
+}
+
