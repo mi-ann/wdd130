@@ -484,7 +484,7 @@ aside {
   }
 
   .top-item img{
-  max-width: auto;
+  width: auto;
   height:500px;
   border-radius: 5px;
   margin-bottom: 10px;
