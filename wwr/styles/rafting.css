@@ -69,16 +69,18 @@ article img{
     
 }
 
-div h1{
+.hero h1{
+    display: flex;
     padding: 20px;
     position: absolute;
     top: 50px;
-    text-align: center;
+    justify-content: center;
     height: 25px;
-    width: 98%;
+    width: 100%;
     background-color: var(--primary-color);
+    align-items: center;
 
-    
+
 }
 
 
@@ -327,3 +329,160 @@ aside {
   justify-content: center;
 }
 
+.trip-container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center align the container */
+  padding: 40px; /* Add padding around the container */
+}
+
+.trip-section {
+  display: flex;
+  margin-bottom: 40px; /* Space between sections */
+}
+
+.trip-aside {
+  flex: 0 0 30%; /* 30% width for the aside */
+  margin-right: 20px; /* Space between aside and description */
+}
+
+.trip-aside figure {
+  margin: 0;
+}
+
+.trip-aside figure img {
+  width: 100%; /* Ensure the image fills the figure */
+  height: auto;
+  display: block; /* Remove any default inline block gaps */
+}
+
+.description {
+  flex: 1; /* Take remaining width */
+}
+
+.description h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.description h2 {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.description p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.trip-table {
+  display: flex;
+  width: 100%;
+  margin: 20px auto; /* Center the table horizontally and add space around it */
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+  
+
+
+.trip-table th, .trip-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.trip-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.trip-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.trip-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.trip-table td a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.trip-table td a:hover {
+  background-color: #45a049;
+}
+
+.trip-table td:first-child, .trip-table th:first-child {
+  min-width: 200px; /* Ensure Trip Type column has minimum width */
+}
+
+.trip-table td:nth-child(2), .trip-table th:nth-child(2) {
+  min-width: 200px; /* Ensure Difficulty column has minimum width */
+}
+
+.trip-table td:last-child {
+  text-align: center; /* Center align Book Now button */
+}
+
+.trip-table td:nth-child(5), .trip-table th:nth-child(5) {
+  text-align: center; /* Center align Usual Minimum Age */
+}
+
+
+.cta-contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.904); /* Transparent black background */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white; /* Text color for all content inside cta-contact */
+}
+
+.cta-contact .cta-content {
+  display: flex;
+  background-color: #ffffff00;
+  width: 40px;
+}
+
+.cta-contact h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.cta-contact p {
+  color: white;
+}
+
+
+
+.cta-contact a:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.cta-contact .contact-button {
+  margin-top: 10px; /* Adds space between the content and button */
+  background-color: #6579eb;
+  color: white;
+  padding: 20px 50px;
+  ; /* White background for contrast */
+  border-radius: 6px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
